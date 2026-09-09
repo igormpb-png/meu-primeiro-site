@@ -3,29 +3,42 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Meu Primeiro Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igor Martins Souza</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Meu primeiro projeto</h1>
+    <div class="container">
+        <section class="hero">
+            <h1>Igor Martins Souza</h1>
+            <p>Empreendedor, criador e apaixonado por construir projetos.</p>
+            <button class="botao"
+                onclick="window.open('https://wa.me/5531991897455?text=Ol%C3%A1%20Igor!%20Acessei%20seu%20site%20e%20gostaria%20de%20entrar%20em%20contato.', '_blank', 'noopener')">Falar comigo</button>
+        </section>
 
-    <section class="autoria">
-        <p>Este site está sendo desenvolvido por Igor Martins Souza</p>
-    </section>
+        <section class="sobre">
+            <h2>Sobre</h2>
+            <p>Essa página nasceu como meu primeiro projeto desenvolvido do zero. Estou aprendendo desenvolvimento web na
+                prática, entendendo cada etapa e construindo aos poucos.</p>
+        </section>
 
-   <p>Meu primeiro site está oficialmente no ar!</p>
+        <section class="momentos">
+            <h2>Momentos</h2>
+            <div class="fotos">
+                <img class="foto" src="images/foto1.jpeg" alt="Foto 1">
+                <img class="foto" src="images/foto2.jpeg" alt="Foto 2">
+                <img class="foto" src="images/foto3.jpeg" alt="Foto 3">
+            </div>
+        </section>
 
-    <button onclick="window.open('https://wa.me/5531991897455?text=Ol%C3%A1%20Igor!%20Acessei%20seu%20site%20e%20gostaria%20de%20entrar%20em%20contato.', '_blank', 'noopener')">Entre em contato</button>
-
-    <section class="galeria">
-        <h2>Galeria</h2>
-        <div class="fotos">
-            <img class="foto" src="images/foto1.jpeg" alt="Foto 1">
-            <img class="foto" src="images/foto2.jpeg" alt="Foto 2">
-            <img class="foto" src="images/foto3.jpeg" alt="Foto 3">
-        </div>
-    </section>
+        <section class="contato">
+            <h2>Vamos conversar?</h2>
+            <p>Se quiser falar comigo, é só chamar.</p>
+            <button class="botao"
+                onclick="window.open('https://wa.me/5531991897455?text=Ol%C3%A1%20Igor!%20Acessei%20seu%20site%20e%20gostaria%20de%20entrar%20em%20contato.', '_blank', 'noopener')">Falar no WhatsApp</button>
+        </section>
+    </div>
 </body>
 
 </html>
