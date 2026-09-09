@@ -51,9 +51,5 @@ button {
     height: 200px;
     background-color: #333333;
     border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #aaaaaa;
-    font-size: 18px;
+    object-fit: cover;
 }
