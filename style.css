@@ -16,6 +16,10 @@ p {
     color: #aaaaaa;
 }
 
+.autoria {
+    margin-bottom: 40px;
+}
+
 button {
     background-color: white;
     color: black;
